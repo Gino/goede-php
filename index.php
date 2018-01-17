@@ -1,4 +1,6 @@
 <?php
+    date_default_timezone_set("Europe/Amsterdam");
+
     $date = date("H");
     $time = date("H:i");
     if ($date >= "06" && $date < "12") {
